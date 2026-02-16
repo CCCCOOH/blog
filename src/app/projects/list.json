@@ -10,5 +10,15 @@
 			"Tailwind"
 		],
 		"github": "https://github.com/SyGmail/SygamilSource"
+	},
+	{
+		"name": "flowershow 笔记",
+		"year": 2025,
+		"image": "blob:https://www.sy-study.top/ae083c8d-29d8-4c94-9bda-2d15a3b900f9",
+		"url": "https://my.flowershow.app/@CCCCOOH/Note",
+		"description": "Obsidian+FlowerShow考研笔记",
+		"tags": [
+			"Obsidian"
+		]
 	}
 ]
