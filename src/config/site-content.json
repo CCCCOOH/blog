@@ -5,22 +5,24 @@
 		"username": "Sync"
 	},
 	"theme": {
-		"colorBrand": "#de4331",
-		"colorPrimary": "#4E3F42",
+		"colorBrand": "#2E2071",
+		"colorPrimary": "#334f52",
 		"colorSecondary": "#7b888e",
-		"colorBrandSecondary": "#FCC841",
+		"colorBrandSecondary": "#1fc9e7",
 		"colorBg": "#eeeeee",
 		"colorBorder": "#ffffff",
 		"colorCard": "#ffffff66",
 		"colorArticle": "#ffffffcc"
 	},
 	"backgroundColors": [
-		"#FCC841",
-		"#DFEFFC",
-		"#DEDE92",
-		"#DE4331",
-		"#FE9750",
-		"#FCC841"
+		"#A9BA69",
+		"#59F31E",
+		"#96581C",
+		"#D2B871",
+		"#D54A6C",
+		"#A1FDCF",
+		"#5F2CB8",
+		"#6D784E"
 	],
 	"artImages": [
 		{
