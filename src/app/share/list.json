@@ -7,7 +7,7 @@
 		"tags": [
 			"数学"
 		],
-		"stars": 3
+		"stars": 5
 	},
 	{
 		"name": "月暗笔记",
@@ -27,7 +27,7 @@
 		"tags": [
 			"408"
 		],
-		"stars": 3
+		"stars": 5
 	},
 	{
 		"name": "科软空间",
@@ -38,16 +38,16 @@
 			"复试",
 			"科软"
 		],
-		"stars": 4
+		"stars": 5
 	},
 	{
 		"name": "考研免费网",
-		"logo": "blob:https://www.sy-study.top/927119d5-89ab-475c-9c17-467b7161cf87",
+		"logo": "/images/share/92bde0fe863a0315.png",
 		"url": "https://www.kaoyanfree.com/",
 		"description": "一大堆免费做题本、讲义pdf。",
 		"tags": [
 			"数学"
 		],
-		"stars": 3
+		"stars": 4
 	}
 ]
