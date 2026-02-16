@@ -1,1 +1,14 @@
-[]
+[
+	{
+		"name": "Syight 搜索集成页",
+		"year": 2024,
+		"image": "blob:https://www.sy-study.top/5d28ab6f-936a-41d1-8311-fcf52aa5a0d6",
+		"url": "https://sygmail.github.io/",
+		"description": "一个简单的搜索集成页。",
+		"tags": [
+			"Vue",
+			"Tailwind"
+		],
+		"github": "https://github.com/SyGmail/SygamilSource"
+	}
+]
