@@ -51,12 +51,12 @@
 	],
 	"clockShowSeconds": false,
 	"summaryInContent": false,
-	"isCachePem": false,
+	"isCachePem": true,
 	"hideEditButton": false,
 	"enableCategories": true,
 	"currentHatIndex": 24,
 	"hatFlipped": false,
-	"enableChristmas": false,
+	"enableChristmas": true,
 	"beian": {
 		"text": "",
 		"link": ""
