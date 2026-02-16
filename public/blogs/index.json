@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "slug": "typescript-note",
+    "title": "Typescript 小记",
+    "tags": [
+      "Typescript"
+    ],
+    "date": "2026-02-16T18:06",
+    "summary": "Typescript 简单笔记 ，快速了解一下TS的核心写法。",
+    "cover": "/blogs/typescript-note/ef6d759ffa4eaf92.png",
+    "hidden": false,
+    "category": ""
+  }
+]
