@@ -39,5 +39,15 @@
 			"科软"
 		],
 		"stars": 4
+	},
+	{
+		"name": "考研免费网",
+		"logo": "blob:https://www.sy-study.top/927119d5-89ab-475c-9c17-467b7161cf87",
+		"url": "https://www.kaoyanfree.com/",
+		"description": "一大堆免费做题本、讲义pdf。",
+		"tags": [
+			"数学"
+		],
+		"stars": 3
 	}
 ]
