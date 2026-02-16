@@ -1,12 +1,43 @@
 [
 	{
 		"name": "数学真题墙",
-		"logo": "blob:https://www.sy-study.top/27df22ad-691c-4591-bbd6-f27e06e768b1",
+		"logo": "/images/share/bb2c450f34af5b8c.jpeg",
 		"url": "https://zhentiqiang.com",
 		"description": "最强题库，尽在其中。",
 		"tags": [
 			"数学"
 		],
 		"stars": 3
+	},
+	{
+		"name": "月暗笔记",
+		"logo": "blob:https://www.sy-study.top/1c7b68ee-1571-4265-861a-e2efd41d3ff6",
+		"url": "https://www.yuque.com/yuqueyonghunhc3kb/darkmoon",
+		"description": "月之暗面。",
+		"tags": [
+			"408"
+		],
+		"stars": 4
+	},
+	{
+		"name": "408真题",
+		"logo": "blob:https://www.sy-study.top/b07f1c75-f13e-4a23-bbdb-74bb8e8a8d33",
+		"url": "https://www.408kaoyan.top",
+		"description": "真题。",
+		"tags": [
+			"408"
+		],
+		"stars": 3
+	},
+	{
+		"name": "科软空间",
+		"logo": "blob:https://www.sy-study.top/46da3c82-057b-4d04-994a-f93a86ad5119",
+		"url": "https://www.wolai.com/ustcse/3TT4cr7PZTEJ3zHu5Y7xQJ",
+		"description": "科软考研空间。",
+		"tags": [
+			"复试",
+			"科软"
+		],
+		"stars": 4
 	}
 ]
