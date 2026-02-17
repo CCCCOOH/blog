@@ -51,7 +51,7 @@
 			"order": 1
 		}
 	],
-	"clockShowSeconds": false,
+	"clockShowSeconds": true,
 	"summaryInContent": false,
 	"isCachePem": true,
 	"hideEditButton": false,
