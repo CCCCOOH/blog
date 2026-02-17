@@ -59,5 +59,15 @@
 			"工具"
 		],
 		"stars": 5
+	},
+	{
+		"name": "games101课程主页",
+		"logo": "https://sites.cs.ucsb.edu/~lingqi/images/games101.png",
+		"url": "https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html",
+		"description": "games101课程主页...",
+		"tags": [
+			"games101"
+		],
+		"stars": 5
 	}
 ]
