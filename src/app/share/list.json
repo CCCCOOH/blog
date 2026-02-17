@@ -49,5 +49,15 @@
 			"数学"
 		],
 		"stars": 4
+	},
+	{
+		"name": "Gemini",
+		"logo": "blob:https://www.sy-study.top/372822ed-30f1-4be3-8371-652c4efd831f",
+		"url": "https://gemini.google.com/app",
+		"description": "强大的数学帮手。",
+		"tags": [
+			"工具"
+		],
+		"stars": 5
 	}
 ]
