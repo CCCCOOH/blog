@@ -1,5 +1,5 @@
 {
 	"title": "关于本站",
 	"description": "一个基于 Github 的现代化博客系统",
-	"content": "Sync的考研日志小站，记录考研内容。\n\n\n```js\nconst About {\n    name: \"Sync\",\n    age: 404,\n    hobby: \"做题\",\n    other: \"蚌埠住了😅\"\n}\n```"
+	"content": "Sync的考研日志小站，记录考研内容。\n\n\n```js\nconst About = {\n    name: \"Sync\",\n    age: 404,\n    hobby: \"做题\",\n    other: \"蚌埠住了😅\"\n}\n```"
 }
