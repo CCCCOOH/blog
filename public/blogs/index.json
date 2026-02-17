@@ -9,7 +9,7 @@
     "summary": "gemini教你学games101.",
     "cover": "/blogs/gemini-teach-you-games101/df32d93c0aa9ba1d.png",
     "hidden": false,
-    "category": ""
+    "category": "games101"
   },
   {
     "slug": "typescript-note",
@@ -21,6 +21,6 @@
     "summary": "Typescript 简单笔记 ，快速了解一下TS的核心写法。",
     "cover": "/blogs/typescript-note/ef6d759ffa4eaf92.png",
     "hidden": false,
-    "category": ""
+    "category": "前端"
   }
 ]
