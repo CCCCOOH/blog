@@ -336,7 +336,7 @@ $$
 
 透视投影对比正交投影：
 
-**![image.png](https://ccccooh.oss-cn-hangzhou.aliyuncs.com/img/202602182228063.png)
+![image.png](https://ccccooh.oss-cn-hangzhou.aliyuncs.com/img/202602182228063.png)
 
 ## 正交投影
 
