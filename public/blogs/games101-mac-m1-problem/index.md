@@ -1,6 +1,8 @@
 ## 作业 0
 
-在 mac 上安装些许困难，最终参考了稀土掘金的教程解决了，抛弃了虚拟机的方案，直接在本机部署环境一劳永逸，还算快的。
+> 更新于 2026 年 1 月。
+
+在 `M1 Mac` 上安装些许困难，最终参考了稀土掘金的教程解决了，抛弃了虚拟机的方案，直接在本机部署环境一劳永逸，还算快的。
 
 > [https://juejin.cn/post/7144284278023684133#heading-10](https://juejin.cn/post/7144284278023684133#heading-10)。
 
@@ -142,3 +144,57 @@ $$
 $$
 
 > 手算一下就可以很简单地验证。
+
+
+## 作业 1
+
+做这个作业也是一上来就遇到报错了，发现是因为没有安装 `opencv@2` 的原因，但发现 `opencv2` 已经停止维护了😅，不过根据我上一次的经验，我还是跑通了！
+
+安装好 `opencv` 后需要修改 `main.cpp` 中的引入代码，因为现在已经是 `opencv4` 了：
+
+```c++
+#include <opencv4/opencv2/opencv.hpp>
+```
+
+> 这里建议亲自根据 `brew info opencv` 去调查一下文件目录再写入，只需要保证是从 `/include` 这个位置开始就对了，比如我这里实际目录的结构是 `/opt/homebrew/Cellar/eigen/5.0.1/include/opencv4/opencv2/opencv.hpp`。
+
+首先更改 `CMakeLists.txt`：
+
+```sh
+cmake_minimum_required (VERSION 2.8.11...3.27)
+project (homework0)
+
+find_package(OpenCV REQUIRED)
+
+message(STATUS "Eigen3 include dirs: ${EIGEN3_INCLUDE_DIRS}")
+message(STATUS "OpenCV include dirs: ${OpenCV_INCLUDE_DIRS}")
+set(CMAKE_CXX_STANDARD 17)
+
+include_directories("/opt/homebrew/Cellar/eigen/5.0.1/include")
+include_directories("/opt/homebrew/Cellar/opencv/4.13.0_3/include")
+
+
+add_executable(Rasterizer main.cpp rasterizer.hpp rasterizer.cpp Triangle.hpp Triangle.cpp)
+target_include_directories(Rasterizer PRIVATE 
+    ${EIGEN3_INCLUDE_DIRS} 
+    ${OpenCV_INCLUDE_DIRS}
+)
+target_link_libraries(Rasterizer ${OpenCV_LIBRARIES})
+```
+
+然后在 `代码框架` 目录进行编译即可：
+
+```sh
+mkdir build && cd build && cmake .. && make
+```
+
+在 `/build`  下运行：
+
+```sh
+./Rasterizer
+```
+
+紧接着会在终端中输出，并打开一个窗口！
+
+> 终于可以开始写作业了，太棒了！🚀
+
