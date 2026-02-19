@@ -519,7 +519,7 @@ n \\
 \begin{pmatrix}
 nx + 0 + 0 + 0 \\
 0 + ny + 0 + 0 \\
-n? + n? + n? + n? \\
+x? + y? + n? + 1? \\
 0 + 0 + n + 0
 \end{pmatrix}
 =
